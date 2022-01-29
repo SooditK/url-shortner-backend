@@ -1,0 +1,27 @@
+{
+  "development": {
+    "username": "soodit",
+    "password": "soodit",
+    "database": "database",
+    "host": "databaseHost",
+    "dialect": "postgres",
+    "port": 26257,
+    "ssl": {
+      "ca": "/.postgresql/root.crt"
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
